@@ -2,15 +2,19 @@
     display: flex;
 }
 .hdr{
+    background-color: rgb(213, 0, 0);
+    width: 100%;
+}
+.hdr-container{
     justify-content: space-between;
     align-items: center;
     max-width: 1600px;
     width: 100%;
-    background-color: rgb(213, 0, 0);
     margin: 0 auto;
     position:fixed;
     padding: 0 35px;
     z-index: 100;
+    background-color: rgb(213, 0, 0);
 }
 .nav-ul{
     justify-content: space-between;
@@ -599,6 +603,7 @@ tr{
     padding: 7px 20px;
     margin: 5px 0px;
     border: 1px solid #c90c10;
+    border-radius: 2px;
     transition: all 0.3s linear;
     font-family: 'Poppins', sans-serif;
 }
@@ -619,6 +624,7 @@ tr{
     padding: 7px 20px;
     margin: 5px 0px;
     border: 1px solid #7c7272;
+    border-radius: 2px;
     font-family: 'Poppins', sans-serif;
 }
 .info-block{
@@ -632,6 +638,7 @@ tr{
     background-color: #FFF;
     padding: 7px 10px;
     border: 1px solid #c90c10;
+    border-radius: 2px;
     transition: all 0.3s linear;
     font-family: 'Poppins', sans-serif;
 }
