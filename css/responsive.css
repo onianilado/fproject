@@ -95,3 +95,13 @@
         font-size: 8px;
     }
 }
+@media (max-width:547px) {
+    .footer-text{
+        display: none;
+    }
+}
+@media (max-width:376px){
+    .news-box{
+        transform: translate(1px, -65px);
+    }
+}
