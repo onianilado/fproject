@@ -225,4 +225,11 @@
     .ticket-right{
         margin: 15px 0 ;
     }
+    .ticket-middle1,
+    .ticket-middle2{
+        padding: 0 5px;
+    }
+    .team{
+        font-size:16px;
+    }
 }
