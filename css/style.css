@@ -1,6 +1,7 @@
 .flex{
     display: flex;
 }
+/* header start */
 .hdr{
     background-color: rgb(213, 0, 0);
     width: 100%;
@@ -601,6 +602,10 @@ tr{
     margin: 10px 0;
     text-align: center;
 }
+.versus-box{
+    max-width: 575.58px;
+    width: 100%;
+}
 .ticket-middle1{
     align-items: center;
     justify-content: right;
@@ -718,9 +723,13 @@ tr{
     padding-top: 70px;
     font-family: 'Poppins', sans-serif;
 }
+.team{
+    font-family: 'Arial';
+}
 .cm-img{
-    width: 360.86px;
-    height: 166px;
+    max-width: 360.86px;
+    width: 100%;
+    height: auto;
 }
 .cm-front{
     visibility: visible;

@@ -214,3 +214,15 @@
         transform: translate(1px, -65px);
     }
 }
+/* ticket page start */
+@media (max-width:600px) {
+    .ticket-box{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ticket-right{
+        margin: 15px 0 ;
+    }
+}
