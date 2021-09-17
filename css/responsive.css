@@ -232,4 +232,8 @@
     .team{
         font-size:16px;
     }
+    .acm-badge,
+    .opp-badge{
+        margin-left:0;
+    }
 }
