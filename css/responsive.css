@@ -1,4 +1,59 @@
 /* header */
+@media (max-width:1290px) {
+    .hdr-nav{
+        margin-left: 200px;
+    }
+}
+@media (max-width:1100px){
+    .hdr-nav{
+        margin-left:100px;
+    }
+}
+@media (max-width:1000px){
+    .hdr-nav{
+        margin-left:50px;
+    }
+}
+@media (max-width:925px) {
+    .hdr-nav{
+        margin-left: 20px;
+    }
+    .navli{
+        margin-left: 20px;
+    }
+    .my-milan{
+        display: none;
+    }
+    .hdr-user{
+        display: block;
+        color: white;
+        font-size: 16px;
+    }
+}
+@media (max-width:800px) {
+    .hdr-nav{
+        display: none;
+    }
+    .hdr-bar{
+        display: block;
+    }
+    .hdr-search{
+        display: block;
+    }
+}
+@media (max-width:550px) {
+    .news-box{
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:340px) {
+    .hdr-search,
+    .hdr-user{
+        display: none;
+    }
+}
 /* index.html responsive */
 @media (max-width:1170px){
     .sec1-block{
