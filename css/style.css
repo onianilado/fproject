@@ -1,18 +1,20 @@
 .flex{
     display: flex;
 }
+.hdr{
+    background-color: rgb(213, 0, 0);
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+}
 .hdr-container{
-    max-width: 1620px;
+    max-width: 1600px;
     width: 100%;
     margin: 0 auto;
 }
 .hdr-wrapper{
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    position:fixed;
-    z-index: 100;
-    background-color: rgb(213, 0, 0);
     padding: 0 15px;
 }
 .hdr-nav{
@@ -27,11 +29,14 @@
     margin-right: 0;
 }
 .nav-li{
+    padding: 10px 2px;
     color:white;
     transition: all 0.3s linear; 
 }
 .nav-li:hover{
+    background-color: white;
     color: #000;
+    border-radius: 2px;
 }
 .logo-img{
     width: 70px;
@@ -234,7 +239,8 @@ body{
 .pstn{
     color: rgb(216, 190, 109);
     font-weight: bold;
-    width: 40px;
+    max-width: 40px;
+    width: 100%;
     text-align: center;
     padding: 7px;
     margin-right: 10px;
